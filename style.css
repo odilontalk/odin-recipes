@@ -1,0 +1,43 @@
+:root {
+    --system-ui: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--system-ui);
+    color: rgb(69, 96, 15);
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    background-color: rgb(188, 244, 225);
+    padding: 10px;
+    font-weight: 300;
+}
+
+.recipe-list {
+    background-color: rgb(188, 244, 225);
+    color: green;
+}
+
+.nav-link {
+    background-color: bisque;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 20px 5px;
+    padding: 20px;
+
+}
